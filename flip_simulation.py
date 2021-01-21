@@ -28,13 +28,14 @@ import random
 
 def flips(performs):
 
-    current = 0             # current perform
-    cons_flips = 1              # counts to maximum of 3 same flips
-    flips_list = [random.choice(["H", "T"])]            # list of flips of the current run
-    current_flip = 0            # all the flips of the current run
-    total_flips = 0             # all the flips of the performs
+    current = 0                                                 # current perform
+    total_flips = 0                                             # all the flips of the performs
 
     while current < performs:
+
+        cons_flips = 1                                          # counts to maximum of 3 same flips
+        flips_list = [random.choice(["H", "T"])]                # list of flips of the current run
+        current_flip = 0                                        # all the flips of the current run
 
         while cons_flips < 3:
 
@@ -50,11 +51,7 @@ def flips(performs):
                 print(" ".join(flips_list) + " ({} flips)".format(current_flip))
                 total_flips += current_flip
 
-        flips_list = [random.choice(["H", "T"])]
-        current_flip = 0
         current += 1
-        cons_flips = 1
 
         if current == performs:
             print("On average, {:2} flips were needed".format(total_flips / performs))
-            
