@@ -20,7 +20,7 @@ def is_sub_list(smaller, larger):
         raise ValueError("The smaller list needs to be shorter than the larger one")
 
     if not smaller:
-        return "This list a sublist of the larger list"
+        return True
 
     smaller_1 = []
     index = larger.index(smaller[0])
