@@ -30,7 +30,7 @@ def erastothene(limit):
 
         p += 1
 
-        while p < limit and nums[p] == 0:
+        while p < limit // 2 and nums[p] == 0:
             p += 1
 
     return [i for i in nums if i != 0]
