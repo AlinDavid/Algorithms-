@@ -5,6 +5,7 @@ a blank line). Complete this task using recursion. Your program may not use any
 loops.
 '''
 
+
 def write():
 
     user_input = input("Write a value (blank to quit) :")
