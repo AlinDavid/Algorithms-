@@ -1,5 +1,5 @@
 '''
-Develop a hierarchy of classes foriterating numeric progressions. A numeric progression 
+Develop a hierarchy of classes for iterating numeric progressions. A numeric progression 
 is a sequence of numbers, where each number depends on one or more of the previous numbers. 
 For example, an arithmetic progression determines the next number by adding a fixed constant
 to the previous value, and a geometric progression determines the next number
