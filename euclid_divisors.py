@@ -14,6 +14,6 @@ def euclid_divisor(first_number, second_number):
         return first_number
     else:
         divisor = first_number % second_number
-        return euclid(second_number, divisor)
+        return euclid_divisor(second_number, divisor)
    
    
