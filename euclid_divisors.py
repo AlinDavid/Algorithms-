@@ -7,6 +7,7 @@ Write a program that implements Euclid’s algorithm and uses it to determine th
 greatest common divisor of two integers entered by the user.
 '''
 
+
 def euclid_divisor(first_number, second_number):
 
     if second_number == 0:
